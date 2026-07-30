@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   // GitHub Pages - ลบ basePath ถ้าใช้ user.github.io
-  // basePath: "/ekromnetvpn",
+  basePath: "/Web", // For EkromSSH.github.io/Web
 };
 
 export default nextConfig;
