@@ -1,21 +1,18 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-
-export const metadata = {
+export const metadata: Metadata = {
   title: "EkromNetVPN",
-  description: "VPN ความเร็วสูง ราคาเข้าถึง",
+  description: "VPN ความเร็วสูง เสถียร ไม่หลุด",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="th">
-      <body className={`${inter.variable} bg-[#0b0f1a] text-[#e2e8f0]`}>
+      <body className="bg-[#0b0f1a] text-white">
         <Navbar />
-        <main>{children}</main>
+        {children}
       </body>
     </html>
   );
