@@ -17,7 +17,7 @@ export default function Home() {
               <span className="text-xs font-bold text-white">VPN</span>
             </div>
           </Link>
-          <Link href="/login" className="text-[10px] px-4 py-1.5 rounded-full bg-gradient-to-r from-[#00e68a] to-[#0099ff] text-black font-bold shadow-lg shadow-[#00e68a]/20">เข้าสู่ระบบ</Link>
+          <Link href="/login" className="text-xs px-5 py-2 rounded-full bg-gradient-to-r from-[#00e68a] to-[#0099ff] text-black font-bold shadow-lg shadow-[#00e68a]/20">เข้าสู่ระบบ</Link>
         </div>
       </div>
 
@@ -35,9 +35,9 @@ export default function Home() {
               <span className="bg-gradient-to-r from-[#00e68a] to-[#0099ff] bg-clip-text text-transparent">เสถียร ไม่หลุด</span>
             </h1>
             <p className="text-xs text-center text-[#64748b] mb-5">รองรับ AIS · True · DTAC เริ่ม 50 บาท</p>
-            <div className="flex items-center justify-center gap-3">
-              <Link href="/order" className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-[#00e68a] to-[#0099ff] text-black font-bold text-xs shadow-lg shadow-[#00e68a]/20 transition hover:shadow-xl">🛒 สั่งซื้อเลย</Link>
-              <Link href="/register" className="px-6 py-2.5 rounded-xl border border-[#1e2d47] text-white text-xs transition hover:border-[#00e68a]/50">สมัครสมาชิก</Link>
+            <div className="flex flex-col gap-3 px-8">
+              <Link href="/order" className="w-full py-3 rounded-xl bg-gradient-to-r from-[#00e68a] to-[#0099ff] text-black font-bold text-sm text-center shadow-lg shadow-[#00e68a]/20">🛒 สั่งซื้อเลย</Link>
+              <Link href="/register" className="w-full py-3 rounded-xl border-2 border-[#1e2d47] text-white font-bold text-sm text-center">สมัครสมาชิก</Link>
             </div>
           </div>
         </div>
@@ -50,9 +50,9 @@ export default function Home() {
               { i: "🛡️", t: "ปลอดภัย" },
               { i: "📱", t: "ใช้งานง่าย" },
             ].map((f, i) => (
-              <div key={i} className="flex-1 bg-[#111927] border border-[#1e2d47] rounded-xl py-2.5 text-center">
-                <div className="text-lg mb-0.5">{f.i}</div>
-                <div className="text-[9px] text-[#64748b] font-medium">{f.t}</div>
+              <div key={i} className="flex-1 bg-[#111927] border border-[#1e2d47] rounded-xl py-3 text-center">
+                <div className="text-xl mb-1">{f.i}</div>
+                <div className="text-[10px] text-[#64748b] font-medium">{f.t}</div>
               </div>
             ))}
           </div>
@@ -76,7 +76,7 @@ export default function Home() {
                   <div className="text-sm font-bold">{n.n}</div>
                   <div className="text-[10px] text-[#64748b]">สัญญาณเครือข่าย {n.n}</div>
                 </div>
-                <Link href="/order" className="shrink-0 px-3.5 py-1.5 rounded-lg bg-gradient-to-r from-[#00e68a] to-[#0099ff] text-black font-bold text-[10px] shadow-md">เลือกเลย</Link>
+                <Link href="/order" className="shrink-0 px-5 py-2 rounded-xl bg-gradient-to-r from-[#00e68a] to-[#0099ff] text-black font-bold text-xs shadow-md">เลือกเลย</Link>
               </div>
             ))}
           </div>
@@ -101,7 +101,7 @@ export default function Home() {
                 <div className="text-[8px] text-[#64748b] mb-1">บาท</div>
                 <div className="text-xs font-medium text-white/90">{pkg.d}</div>
                 <div className="text-[8px] text-[#445566] mb-3">2 อุปกรณ์</div>
-                <Link href="/order" className="block py-1.5 rounded-xl bg-gradient-to-r from-[#00e68a] to-[#0099ff] text-black font-bold text-[10px] shadow-sm">เลือก</Link>
+                <Link href="/order" className="block py-2.5 rounded-xl bg-gradient-to-r from-[#00e68a] to-[#0099ff] text-black font-bold text-xs shadow-sm">เลือก</Link>
               </div>
             ))}
           </div>
@@ -157,7 +157,7 @@ export default function Home() {
             <div className="text-3xl mb-2">💬</div>
             <h3 className="text-sm font-bold mb-1">ติดต่อแอดมิน</h3>
             <p className="text-[10px] text-[#64748b] mb-4">ตอบกลับทุกปัญหา 24 ชั่วโมง</p>
-            <a href="https://line.me/R/ti/p/@578infzg" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#00e68a] to-[#0099ff] text-black font-bold text-xs shadow-lg shadow-[#00e68a]/20">
+            <a href="https://line.me/R/ti/p/@578infzg" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-[#00e68a] to-[#0099ff] text-black font-bold text-sm shadow-lg shadow-[#00e68a]/20">
               💬 @578infzg
             </a>
           </div>

@@ -14,7 +14,7 @@ export default function RegisterPage() {
             <input type="tel" className="w-full px-3 py-2.5 mb-2.5 bg-[#0b0f1a] border border-[#1e2d47] rounded-lg text-xs text-white placeholder-[#64748b] focus:border-[#00e68a] outline-none" placeholder="เบอร์โทร" required />
             <input type="password" className="w-full px-3 py-2.5 mb-2.5 bg-[#0b0f1a] border border-[#1e2d47] rounded-lg text-xs text-white placeholder-[#64748b] focus:border-[#00e68a] outline-none" placeholder="รหัสผ่าน" required />
             <input type="password" className="w-full px-3 py-2.5 mb-4 bg-[#0b0f1a] border border-[#1e2d47] rounded-lg text-xs text-white placeholder-[#64748b] focus:border-[#00e68a] outline-none" placeholder="ยืนยันรหัสผ่าน" required />
-            <button className="w-full py-2.5 rounded-lg bg-[#00e68a] text-black font-bold text-xs">สมัครสมาชิก</button>
+            <button className="w-full py-3 rounded-xl bg-gradient-to-r from-[#00e68a] to-[#0099ff] text-black font-bold text-sm shadow-lg shadow-[#00e68a]/20">สมัครสมาชิก</button>
           </form>
           <div className="mt-3 text-center text-[10px] text-[#64748b]">มีบัญชีแล้ว? <Link href="/login" className="text-[#00e68a] font-semibold">เข้าสู่ระบบ</Link></div>
         </div>
