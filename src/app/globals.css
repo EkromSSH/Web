@@ -1,0 +1,31 @@
+:root {
+  --bg-primary: #0b0f1a;
+  --bg-secondary: #0d1321;
+  --bg-card: #111927;
+  --bg-card-hover: #151f33;
+  --border: #1e2d47;
+  --accent: #00e68a;
+  --accent2: #00bcd4;
+  --accent3: #7c4dff;
+  --text: #e2e8f0;
+  --text2: #94a3b8;
+  --text3: #64748b;
+  --green: #00e68a;
+  --red: #ff4757;
+  --yellow: #ffc107;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter', 'Sarabun', 'Prompt', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text);
+  overflow-x: hidden;
+}
+a { color: inherit; text-decoration: none; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
